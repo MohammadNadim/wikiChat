@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lightning_bot_v0.0</title>
+  <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='styleSheet.css')}}">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="{{url_for('static', filename='javaScript.js')}}"></script>
+</head>
+
+  <body>
+    <center>
+      <h1>
+        Lightning ChatBot
+      </h1>
+    </center>
+    <div class="box"></div>
+    <div class="boxed">
+      <div>
+        <div id="chatbox">
+          <p class="botText">
+            <span>Hi! I'm Lightning. Your personal ChatBot</span>
+          </p>
+        </div>
+        <div id="userInput">
+          <input id="textInput" type="text" name="msg" placeholder="Message" onkeypress="call_bot(event)"/>
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>
