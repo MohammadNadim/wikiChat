@@ -31,6 +31,6 @@ def index():
 
 # Running the app
 if __name__ == "__main__":
-    ip = '127.0.0.1'
-    port_number = 5000
-    app.run(host=ip, port=port_number)
+    #ip = '127.0.0.1'
+    #port_number = 5000
+    app.run(threaded=True, port=5000)
