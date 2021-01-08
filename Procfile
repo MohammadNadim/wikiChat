@@ -1,1 +1,1 @@
-web:gunicorn app:wiki-chatbot
+web:gunicorn app:app
